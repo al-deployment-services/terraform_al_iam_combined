@@ -52,6 +52,8 @@ resource "aws_iam_policy" "alertlogic_cloud_insight_policy" {
                 "elasticache:Describe*",
                 "elasticloadbalancing:Describe*",
                 "elasticmapreduce:DescribeJobFlows",
+                "events:Describe*",
+                "events:List*",
                 "glacier:ListVaults",
                 "guardduty:Get*",
                 "guardduty:List*",
